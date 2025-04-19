@@ -8,3 +8,6 @@ def home(request):
         'banners': banners,
         'classes': classes
     })
+
+def about(request):
+    return render(request, 'about.html')    
